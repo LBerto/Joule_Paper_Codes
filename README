@@ -6,7 +6,7 @@ To run the simulations presented in Figures 4, 5 or 6 of our paper:
 0. Download each folder. Make sure to have all the Matlab scripts in the same folder and all the python scripts and ".txt" files in the same folder.
 1. Open a "main_FigureX" script with Matlab (in the "Data_simulations_Matlab" folder).
 2. If you want to change the device parameters, open the "physical_param" script and change the values of the parameters you wish to modify. 
-   Note that convergence is not guaranteed. Once you're done, save the script.
+   Note that numerical convergence is not guaranteed if you change the parameter values by multiple orders of magnitudes. Once you're done, save the script.
 3. Run the "main_FigureX" script. For Figure 5, you can vary the number of bulk and surface recombination rate values by tuning "imax" and "jmax". 
    For Figure 6, you can vary the number of ion concentration values by tuning the value of "imax". 
    Note that for the resolution of the paper, the simulations for Figure 5A,B take about 14 hours (37*46 = 1702 data points per figure) while the 
